@@ -8,7 +8,7 @@
 // @name           FetLife Text Search
 // @version        0.1
 // @namespace      com.maybemaimed.fetlife.textsearch
-// @updateURL      https://userscripts.org/scripts/source/TK.user.js
+// @updateURL      https://userscripts.org/scripts/source/152135.user.js
 // @description    Searches through FetLife group discussions for a specific keyword or phrase.
 // @include        https://fetlife.com/groups*
 // @exclude        https://fetlife.com/adgear/*
@@ -183,7 +183,10 @@ FL_TXT.displayResult = function (el, pos, url) {
 
     var icon = el.querySelector('.avatar');
     var nick = el.querySelector('.nickname');
-    var permalink = url + '#' + el.getAttribute('id');
+    var permalink = url;
+    if (el.getAttribute('id')) {
+        url += '#' + el.getAttribute('id');
+    }
 
     var start = (100 > pos) ? 0 : pos - 100;
     var end = pos + 100;
