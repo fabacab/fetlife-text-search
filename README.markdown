@@ -11,9 +11,15 @@ With the FetLife Text Search user script installed, a few clicks will save hours
 
 ## System requirements
 
-To use the FetLife Text Search user script, you must be running [Mozilla Firefox](http://getfirefox.com/) (version 12.0 or higher), with the [Greasemonkey extension](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) installed (at version 1.0 or higher).
+The following software must be installed on your system before installing the FetLife Text Search user script.
 
-Sorry, FetLife Text Search is currently [incompatible with other Web browsers](https://github.com/meitar/fetlife-text-search/issues/1). (Please help me fix that!)
+### Mozilla Firefox
+
+If you use the [Mozilla Firefox](http://getfirefox.com/) web browser (version 12.0 or higher), ensure you have the [Greasemonkey extension](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) installed (at version 1.0 or higher).
+
+### Google Chrome
+
+If you use the [Google Chrome](https://chrome.google.com/) web browser (version 23 or higher), ensure you have the [Tampermonkey extension](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) installed.
 
 ## Installing
 
@@ -23,7 +29,7 @@ To install FetLife Text Search, go to [http://maybemaimed.com/playground/fetlife
 
 If you enjoy this script, please consider tossing a few metaphorical coins in [my cyberbusking hat](http://maybemaimed.com/cyberbusking/). :) Your donations are sincerely appreciated! Can't afford to part with any coin? It's cool. [Tweet your appreciation, instead](https://twitter.com/intent/tweet?text=Finding%20stuff%20in%20FetLife%20is%20WAY%20easier%20w%2Fthe%20%23FetLife%20Text%20%23Search%20tool%20http%3A%2F%2Fmaybemaimed.com%2Fplayground%2Ffetlife-text-search%2F%20by%20%40maymaym.%20Check%20him%20out%20http%3A%2F%2Fmaybemaimed.com%2Fcyberbusking%2F).
 
-If [maybemaimed.com is censored](http://maybemaimed.com/where-im-censored/) where you are, you can alternatively go to [the Userscripts.org page for FetLife Text Search](https://userscripts.org/scripts/show/152135) and click on "[Install](http://userscripts.org/scripts/source/152135.user.js)".
+If [maybemaimed.com is censored](http://maybemaimed.com/where-im-censored/) where you are, you can alternatively go to [the Userscripts.org page for FetLife Text Search](https://userscripts.org/scripts/show/152135) and click on "[Install](http://userscripts.org/scripts/source/152135.user.js)". If the script is also unavailable at Userscripts.org, you can download and install it directly from [GitHub.com](https://github.com/meitar/fetlife-text-search/raw/master/fetlife-text-search.user.js).
 
 ## Using
 
@@ -45,5 +51,7 @@ To start a new search, simply reload the page.
 
 ## Change log
 
+* Version 0.1.1:
+** Added support for Google Chrome with the Tampermonkey extension installed.
 * Version 0.1:
 ** Initial release.
